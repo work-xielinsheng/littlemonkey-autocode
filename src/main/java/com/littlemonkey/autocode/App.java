@@ -19,7 +19,7 @@ public class App {
         try {
             List<String> warnings = new ArrayList<String>();
             boolean overwrite = true;
-            File configFile = new File("G:\\workspace\\littlemonkey-autocode\\src\\main\\resources\\generator\\generatorConfig.xml");
+            File configFile = new File("D:\\mybase\\littlemonkey-autocode\\src\\main\\resources\\generator\\generatorConfig.xml");
             ConfigurationParser cp = new ConfigurationParser(warnings);
             Configuration config = cp.parseConfiguration(configFile);
             DefaultShellCallback callback = new DefaultShellCallback(overwrite);
